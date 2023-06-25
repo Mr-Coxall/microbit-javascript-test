@@ -1,5 +1,4 @@
-
-> Open this page at [https://mr-coxall.github.io/microbit-javascript-test/](https://mr-coxall.github.io/microbit-javascript-test/)
+# Micro:Bit Test
 
 ## Use as Extension
 
