@@ -37,8 +37,6 @@ fi
 
 # always run on new instance
 cp ./.devcontainer/.bashrc ~/.bashrc
-# binary will be $(go env GOPATH)/bin/golangci-lint
-curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b "$(go env GOPATH)/bin"
 # shellcheck disable=SC1090
 source ~/.bashrc
 git config pull.rebase false
