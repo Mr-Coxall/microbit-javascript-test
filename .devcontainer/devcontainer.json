@@ -10,7 +10,8 @@
 				"oderwat.indent-rainbow",
 				"PKief.material-icon-theme",
 				"sohamkamani.code-eol",
-				"GitHub.copilot"
+				"GitHub.copilot",
+                "ms-python.python"
 			],
             "settings": {
                 "editor.autoClosingQuotes": "always",
@@ -44,7 +45,12 @@
                 "workbench.iconTheme": "material-icon-theme",
                 "workbench.startupEditor": "none",
                 "workbench.tips.enabled": false,
-                "workbench.welcomePage.walkthroughs.openOnInstall": false
+                "workbench.welcomePage.walkthroughs.openOnInstall": false,
+                "python.formatting.blackArgs": [
+                    "--line-length",
+                    "120"
+                ],
+                "python.linting.enabled": true
             }
         }
     }
