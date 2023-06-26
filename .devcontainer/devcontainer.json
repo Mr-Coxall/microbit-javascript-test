@@ -49,8 +49,7 @@
                 "python.formatting.blackArgs": [
                     "--line-length",
                     "120"
-                ],
-                "python.linting.enabled": true
+                ]
             }
         }
     }
