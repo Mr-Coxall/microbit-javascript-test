@@ -10,7 +10,7 @@ while (counter < 5) {
 }
 
 while (true) {
-    if (input.buttonIsPressed(Button.A)) {
-        basic.showNumber(0)
-    }
+  if (input.buttonIsPressed(Button.A)) {
+    basic.showNumber(0)
+  }
 }
