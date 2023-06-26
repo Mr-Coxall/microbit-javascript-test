@@ -26,5 +26,9 @@ jobs:
           VALIDATE_PYTHON_FLAKE8: false
           VALIDATE_GITLEAKS: false # for secrets detection
           VALIDATE_JSCPD: false # for copy and paste detection
+          # for BBC Micro:bit python
+          VALIDATE_PYTHON_PYLINT: false
+          VALIDATE_PYTHON_ISORT: false
+          VALIDATE_PYTHON_MYPY: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,9 +1,12 @@
-# Imports go at the top
+"""
+Created by: Mr. Coxall
+Created on: Sept 2020
+This is the "Hello, World!" module, with proper style
+"""
+
 from microbit import *
 
-
-# Code in a 'while True:' loop repeats forever
 while True:
     display.show(Image.HEART)
     sleep(1000)
-    display.scroll('Hello, World!')
+    display.scroll("Hello, World!")
