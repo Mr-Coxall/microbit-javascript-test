@@ -11,6 +11,6 @@ while (counter < 5) {
 
 while (true) {
   if (input.buttonIsPressed(Button.A) === true) {
-    basic.showNumber(0)
+    basic.showNumber(1)
   }
 }
